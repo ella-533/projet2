@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+    font-family: "Roboto Regular";
+    
+}
+
+.flex-container{
+    width: 100%;
+    height: 10%;
+background-color: gray; 
+color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+h1, p {
+    margin: 20px;
+}
+
+#flex-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10px;
+    right: 20px;
+    left: 20px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#flex-container>div{
+    border: 1px solid black;
+    width: 30vw;
+}
+.image-paris{
+    background-image: url("../img/paris.jpg");
+    position: center;
+    width: 100%;
+    height: 400px;
+}
+.image-tokyo{
+    background-image: url("../img/tokyo.jpg");
+    position: center;
+    width: 100%;
+    height: 400px;
+}
+.image-york{
+    background-image: url("../img/new-york.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 400PX;
+}
+
+
+
+
